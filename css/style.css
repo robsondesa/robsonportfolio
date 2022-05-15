@@ -58,7 +58,7 @@ span {
   color: rgba(114, 114, 114, 0.8); }
 
 h1, h2, h3, h4, h5, h6 {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgb(185 35 34);
   font-family: "Playfair Display", Georgia, serif;
   margin: 0 0 30px 0; }
 
@@ -425,7 +425,7 @@ header {
   left: 0;
   right: 0;
   font-size: 250px;
-  color: #f0f0f0;
+  color: #eeeeee;
   font-weight: 700; }
   @media screen and (max-width: 768px) {
     .bold {
@@ -1265,7 +1265,7 @@ input[type="text"] {
   color: #041562; }
 
 #footer {
-  padding: 8em 0;
+  padding: 5em 0;
   display: block;
   width: 100%; }
   #footer h2 {
