@@ -691,41 +691,41 @@ header{
     top: 7.5%;
     left: 7.5%;
 }
-.progress.blue .progress-bar{
-    border-color: #049dff;
-}
-.progress.blue .progress-value{
-    color: #049dff;
-}
-.progress.blue .progress-left .progress-bar{
-    animation: loading-2 1.5s linear forwards 1.8s;
-}
-.progress.yellow .progress-bar{
-    border-color: #fdba04;
-}
-.progress.yellow .progress-value{
-    color: #fdba04;
-}
-.progress.yellow .progress-left .progress-bar{
-    animation: loading-3 1s linear forwards 1.8s;
-}
-.progress.pink .progress-bar{
-    border-color: #ed687c;
-}
-.progress.pink .progress-value{
-    color: #ed687c;
-}
-.progress.pink .progress-left .progress-bar{
-    animation: loading-4 0.4s linear forwards 1.8s;
-}
-.progress.green .progress-bar{
-    border-color: #1abc9c;
-}
-.progress.green .progress-value{
-    color: #1abc9c;
-}
-.progress.green .progress-left .progress-bar{
-    animation: loading-5 1.2s linear forwards 1.8s;
+.progress.blue .progress-bar {
+  border-color: #041562; }
+
+.progress.blue .progress-value {
+  color: #041562; }
+
+.progress.blue .progress-left .progress-bar {
+  -webkit-animation: loading-2 1.5s linear forwards 1.8s;
+  animation: loading-2 1.5s linear forwards 1.8s; }
+
+.progress.yellow .progress-bar {
+  border-color: #11468f; }
+
+.progress.yellow .progress-value {
+  color: #11468f; }
+
+.progress.yellow .progress-left .progress-bar {
+  -webkit-animation: loading-3 1s linear forwards 1.8s;
+  animation: loading-3 1s linear forwards 1.8s; }
+
+.progress.pink .progress-bar {
+  border-color: #b81212; }
+
+.progress.pink .progress-value {
+  color: #b81212; }
+
+.progress.pink .progress-left .progress-bar {
+  -webkit-animation: loading-4 0.4s linear forwards 1.8s;
+  animation: loading-4 0.4s linear forwards 1.8s; }
+
+.progress.green .progress-bar {
+  border-color: #4a4747; }
+
+.progress.green .progress-value {
+  color: #4a4747; }
 }
 @keyframes loading-1{
     0%{
@@ -763,8 +763,8 @@ header{
         transform: rotate(0deg);
     }
     100%{
-        -webkit-transform: rotate(90deg);
-        transform: rotate(90deg);
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg);
     }
 }
 @keyframes loading-5{

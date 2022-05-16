@@ -33,6 +33,25 @@ body {
     height: 100%;
     overflow-y: hidden; }
 
+
+    body::-webkit-scrollbar {
+      width: 8px;             
+    }
+    
+    body::-webkit-scrollbar-track {
+      background: #eeeeee;       
+    }
+    
+    body::-webkit-scrollbar-thumb {
+      background-color: #041562;   
+      border-radius: 3px;      
+    }
+    
+    body::-webkit-scrollbar-thumb:hover {
+      background: #041562;  
+      border-radius: 5px;      
+    }
+
 a {
   color: #041562;
   -webkit-transition: 0.5s;
@@ -58,7 +77,7 @@ span {
   color: rgba(114, 114, 114, 0.8); }
 
 h1, h2, h3, h4, h5, h6 {
-  color: rgb(185 35 34);
+  color: #041562;
   font-family: "Playfair Display", Georgia, serif;
   margin: 0 0 30px 0; }
 
@@ -536,40 +555,40 @@ header {
   left: 7.5%; }
 
 .progress.blue .progress-bar {
-  border-color: #049dff; }
+  border-color: #041562; }
 
 .progress.blue .progress-value {
-  color: #049dff; }
+  color: #041562; }
 
 .progress.blue .progress-left .progress-bar {
   -webkit-animation: loading-2 1.5s linear forwards 1.8s;
   animation: loading-2 1.5s linear forwards 1.8s; }
 
 .progress.yellow .progress-bar {
-  border-color: #fdba04; }
+  border-color: #11468f; }
 
 .progress.yellow .progress-value {
-  color: #fdba04; }
+  color: #11468f; }
 
 .progress.yellow .progress-left .progress-bar {
   -webkit-animation: loading-3 1s linear forwards 1.8s;
   animation: loading-3 1s linear forwards 1.8s; }
 
 .progress.pink .progress-bar {
-  border-color: #ed687c; }
+  border-color: #b81212; }
 
 .progress.pink .progress-value {
-  color: #ed687c; }
+  color: #b81212; }
 
 .progress.pink .progress-left .progress-bar {
   -webkit-animation: loading-4 0.4s linear forwards 1.8s;
   animation: loading-4 0.4s linear forwards 1.8s; }
 
 .progress.green .progress-bar {
-  border-color: #1abc9c; }
+  border-color: #4a4747; }
 
 .progress.green .progress-value {
-  color: #1abc9c; }
+  color: #4a4747; }
 
 .progress.green .progress-left .progress-bar {
   -webkit-animation: loading-5 1.2s linear forwards 1.8s;
@@ -612,16 +631,16 @@ header {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
-    -webkit-transform: rotate(135deg);
-    transform: rotate(135deg); } }
+    -webkit-transform: rotate(140deg);
+    transform: rotate(140deg); } }
 
 @keyframes loading-3 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
-    -webkit-transform: rotate(135deg);
-    transform: rotate(135deg); } }
+    -webkit-transform: rotate(140deg);
+    transform: rotate(140deg); } }
 
 @-webkit-keyframes loading-4 {
   0% {
@@ -636,24 +655,24 @@ header {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg); } }
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg); } }
 
 @-webkit-keyframes loading-5 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
-    -webkit-transform: rotate(125deg);
-    transform: rotate(125deg); } }
+    -webkit-transform: rotate(80deg);
+    transform: rotate(80deg); } }
 
 @keyframes loading-5 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
-    -webkit-transform: rotate(125deg);
-    transform: rotate(125deg); } }
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg); } }
 
 @media only screen and (max-width: 990px) {
   .progress {
