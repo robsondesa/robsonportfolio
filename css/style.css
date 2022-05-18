@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Karla", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
   font-size: 16px;
   font-weight: 400;
@@ -67,7 +67,7 @@ a {
 p, span {
   margin-bottom: 2em;
   font-weight: 400;
-  font-family: "Karla", Arial, sans-serif; }
+  font-family: 'Montserrat', sans-serif; }
 
 ul, ol {
   display: block;
@@ -78,9 +78,11 @@ span {
   color: rgba(114, 114, 114, 0.8); }
 
 h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
   color: #041562;
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0 0 30px 0; }
+  
 
 ::-webkit-selection {
   color: #fcfcfc;
@@ -204,9 +206,9 @@ h1, h2, h3, h4, h5, h6 {
     @media screen and (max-width: 768px) {
 
       body {
-        font-family: "Karla", Arial, sans-serif;
+        font-family: 'Montserrat', sans-serif;
         line-height: 1.5;
-        font-size: 12px;
+        font-size: 11.3px;
         font-weight: 400;
         background: #fafafa;
         color: #000; }
@@ -223,16 +225,16 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 14px;
         padding: 10px 0;
         text-transform: uppercase;
-        font-weight: 400; }
+        font-weight: 500; }
         @media screen and (max-width: 768px) {
           #colorlib-main-nav ul li a {
             font-size: 16px; } }
         #colorlib-main-nav ul li a:hover, #colorlib-main-nav ul li a:active, #colorlib-main-nav ul li a:focus {
-          color: black;
+          color:#11468f;
           outline: none;
           text-decoration: none; }
       #colorlib-main-nav ul li.active a {
-        color: #041562; }
+        color: #11468f; }
   #colorlib-main-nav .form-group {
     margin-bottom: 40px;
     position: relative;
@@ -383,7 +385,7 @@ header {
   top: .4em;
   left: -50px; }
   .rotate .heading {
-    font-family: "Karla", Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1em;
@@ -414,9 +416,11 @@ header {
     .about-desc h2 span {
       display: block;
       margin-bottom: 0;
-      color: #000;
-      font-size: 50px;
-      font-family: "Playfair Display", Georgia, serif; }
+      color: #041562;
+      font-size: 40px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+    }
   .about-desc .desc {
     padding-left: 6em;
     position: relative; }
@@ -425,7 +429,7 @@ header {
     top: 7px;
     left: 30px; }
     .about-desc .rotate .heading {
-      font-family: "Karla", Arial, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 14px;
       text-transform: uppercase;
       letter-spacing: 1em;
@@ -455,6 +459,10 @@ header {
   font-size: 250px;
   color: #eeeeee;
   font-weight: 700; }
+  @media screen and (max-width: 1100px) {
+    .bold {
+      font-size: 100px; } }
+
   @media screen and (max-width: 768px) {
     .bold {
       font-size: 60px; } }
@@ -463,15 +471,15 @@ header {
   margin-bottom: 3em; }
   .intro-heading h2 {
     font-size: 34px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5;
     margin-bottom: 1.5em;
-    color: #000;
+    color: #041562;
     position: relative; }
   .intro-heading span {
     display: block;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 18px;
     letter-spacing: 3px;
     margin-bottom: 10px;
     color: #bfbfbf;
@@ -718,12 +726,13 @@ header {
 .services {
   margin-bottom: 4em; }
   .services h3 {
-    font-family: "Karla", Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700; }
   .services ul li {
     list-style: none;
+    font-size: 14px;
     margin-bottom: 10px; }
     .services ul li::before {
       content: '\2022';
@@ -764,8 +773,9 @@ header {
         -o-transition: 0.3s;
         transition: 0.3s; }
       .work-entry .work-img .display-t .work-name {
+        border-radius: 16px;
         display: inline-block;
-        padding: 2em 3em;
+        padding: 1em 2em;
         background: #fff;
         -webkit-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
         -moz-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
@@ -777,6 +787,8 @@ header {
         -o-transition: 0.3s;
         transition: 0.3s; }
         .work-entry .work-img .display-t .work-name h2 {
+          font-size: 28px;
+          font-weight: 600;
           margin: 0;
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
@@ -784,14 +796,34 @@ header {
     .work-entry .work-img:hover .display-t:after {
       opacity: 1; }
     .work-entry .work-img:hover .display-t .work-name {
-      padding: 4.5em 3.5em; }
+      padding: 1em 3.5em; }
       .work-entry .work-img:hover .display-t .work-name h2 {
         font-size: 34px; }
     @media screen and (max-width: 768px) {
       .work-entry .work-img {
         height: 400px; }
+        .work-entry .work-img:hover .display-t .work-name h2 {
+          font-size: 16px; }
+        .work-entry .work-img .display-t .work-name h2 {
+          font-size: 12px;
+        }
         .work-entry .work-img .display-t {
-          height: 400px; } }
+          height: 400px; } 
+
+
+        .intro-heading h2 {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 1.5;
+          margin-bottom: 1.5em;
+          color: #041562;
+          position: relative;
+        }
+
+
+        }
+
+        
   .work-entry .desc .read {
     text-align: right; }
     .work-entry .desc .read a {
@@ -888,7 +920,7 @@ header {
       .article .blog-img .link .read {
         display: table-cell;
         vertical-align: middle;
-        font-family: "Karla", Arial, sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #fff;
         font-size: 12px;
         text-transform: uppercase;
@@ -966,11 +998,11 @@ header {
 .testimony blockquote {
   border: none; }
   .testimony blockquote p {
-    font-family: "Playfair Display", Georgia, serif;
+    font-family: 'Montserrat', sans-serif;
     color: #000;
     font-size: 30px; }
   .testimony blockquote span {
-    font-family: "Playfair Display", Georgia, serif;
+    font-family: 'Montserrat', sans-serif;
     color: #000;
     font-size: 30px; }
 
