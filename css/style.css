@@ -464,8 +464,14 @@ header {
       font-size: 100px; } }
 
   @media screen and (max-width: 768px) {
+    h2, .h2 {
+      font-size: 18px;
+      font-weight: 600;
+    }
     .bold {
       font-size: 60px; } }
+
+    
 
 .intro-heading {
   margin-bottom: 3em; }
